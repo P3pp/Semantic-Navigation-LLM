@@ -1,0 +1,17 @@
+{
+  "go_to_point_0_1_north": "# go to point 0 1 north\nnavigator.info('Moving to 0.0, 1.0, North')\ngoal = navigator.getPoseStamped([0.0, 1.0], TurtleBot4Directions.NORTH)\nnavigator.startToPose(goal)",
+  "go_to_point_-1_5_southeast": "# go to point -1 5 southeast\nnavigator.info('Moving to -1.0, 5.0, South East')\ngoal = navigator.getPoseStamped([-1.0, 5.0], TurtleBot4Directions.SOUTH_EAST)\nnavigator.startToPose(goal)",
+  "go_to_point_3_-1.5_west": "# go to point 3 -1.5 west\nnavigator.info('Moving to 3.0, -1.5, West')\ngoal = navigator.getPoseStamped([3.0, -1.5], TurtleBot4Directions.WEST)\nnavigator.startToPose(goal)",
+  "dock": "# dock\nnavigator.info('Docking robot')\nnavigator.dock()",
+  "undock": "# undock\nnavigator.info('Undocking robot')\nnavigator.undock()",
+  "go_to_metal_shelf": "# go to metal shelf\ndest = destinations['metal shelf']\nnavigator.info('Moving to metal shelf')\ngoal = navigator.getPoseStamped(dest[0:2], dest[2])\nnavigator.startToPose(goal)",
+  "go_to_wooden_crate": "# go to wooden crate\ndest = destinations['wood crate']\nnavigator.info('Moving to wooden crate')\ngoal = navigator.getPoseStamped(dest[0:2], dest[2])\nnavigator.startToPose(goal)",
+  "go_to_forklift": "# go to forklift\ndest = destinations['forklift']\nnavigator.info('Moving to forklift')\ngoal = navigator.getPoseStamped(dest[0:2], dest[2])\nnavigator.startToPose(goal)",
+  "go_to_steel_barrels": "# go to steel barrels\ndest = destinations['steel barrels']\nnavigator.info('Moving to steel barrels')\ngoal = navigator.getPoseStamped(dest[0:2], dest[2])\nnavigator.startToPose(goal)",
+  "go_to_bathroom_door": "# go to bathroom door\ndest = destinations['bathroom door']\nnavigator.info('Moving to bathroom door')\ngoal = navigator.getPoseStamped(dest[0:2], dest[2])\nnavigator.startToPose(goal)",
+  "navigate_through_poses": "# navigate through poses\nnavigator.info('Executing predefined path')\nexecute_nav_through_poses()",
+  "deliver_mail_home": "# deliver mail home\nnavigator.info('Delivering mail to Home')\nexecute_mail_delivery('home')",
+  "deliver_mail_position_1": "# deliver mail position 1\nnavigator.info('Delivering mail to Position 1')\nexecute_mail_delivery('position 1')",
+  "go_to_mug": "# go to mug\ndest = destinations['mug']\nnavigator.info('Moving to mug')\ngoal = navigator.getPoseStamped(dest[0:2], dest[2])\nnavigator.startToPose(goal)",
+  "go_to_chair": "# go to chair\ndest = destinations['chair']\nnavigator.info('Moving to chair')\ngoal = navigator.getPoseStamped(dest[0:2], dest[2])\nnavigator.startToPose(goal)"
+}
