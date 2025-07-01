@@ -10,7 +10,7 @@ This file stores **symbolic positions** of detected objects or locations in the 
 
 ## Format
 
-```json
+json
 {
   "object_name": [x, y, yaw],
   "chair": [0.77, -3.10, -14.0],
