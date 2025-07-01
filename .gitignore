@@ -1,0 +1,32 @@
+# ROS 2 build folders
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.npy
+
+# Environment files
+.env
+.env.*
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# Captured images and debug files
+captured_images/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+depth_debug.png
+depth_bbox_debug.png
+
+# System
+.DS_Store
+Thumbs.db
