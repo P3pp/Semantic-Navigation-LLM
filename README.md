@@ -17,6 +17,8 @@ This repository contains the **custom modules** added to the official `turtlebot
 - Runtime symbolic updates via `*.json` files
 
 ---
+📘 See [turtlebot4_openai_tutorials/README_SCRIPTS.md](./turtlebot4_openai_tutorials/README_SCRIPTS.md) for detailed script explanation.
+📘 See [config/README_CONFIG.md](./config/README_CONFIG.md) for details on dynamic configuration files.
 
 ## Project Structure
 Semantic-Navigation-LLM/
