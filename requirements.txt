@@ -1,0 +1,22 @@
+# ROS 2 Python interface
+rclpy
+ament-index-python
+
+# OpenAI API client
+openai
+
+# Vision & Image Processing
+opencv-python
+numpy
+Pillow
+torch
+transformers
+
+# YOLOv8
+ultralytics
+
+# TF and geometry messages (per ROS)
+tf-transformations
+
+# For interfacing ROS Image messages with OpenCV
+cv_bridge @ git+https://github.com/ros-perception/vision_opencv.git@ros2#subdirectory=cv_bridge
