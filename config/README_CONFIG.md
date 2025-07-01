@@ -2,7 +2,7 @@
 
 This folder contains dynamic JSON files that store the robot's evolving knowledge about its environment and executable commands.
 
----
+
 
 ## dynamic_destinations.json`
 
