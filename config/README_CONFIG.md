@@ -8,7 +8,7 @@ This folder contains dynamic JSON files that store the robot's evolving knowledg
 
 This file stores **symbolic positions** of detected objects or locations in the environment.
 
-### Format
+## Format
 
 ```json
 {
